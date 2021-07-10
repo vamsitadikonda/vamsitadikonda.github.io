@@ -1,0 +1,85 @@
+{
+  "expireTime": 9007200880679560000,
+  "key": "transformer-remark-markdown-html-ast-0379f54e45c0e4205d1f085b09ab0e74-gatsby-remark-external-linksgatsby-remark-imagesgatsby-remark-code-titlesgatsby-remark-prismjs-",
+  "val": {
+    "type": "root",
+    "children": [
+      {
+        "type": "element",
+        "tagName": "ul",
+        "properties": {},
+        "children": [
+          { "type": "text", "value": "\n" },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Enhanced the existing language Identification Systems for multi-lingual sentences thereby\nIdentifying places for code-switches.",
+                "position": {
+                  "start": { "line": 2, "column": 3, "offset": 3 },
+                  "end": { "line": 3, "column": 40, "offset": 132 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 2, "column": 1, "offset": 1 },
+              "end": { "line": 3, "column": 40, "offset": 132 }
+            }
+          },
+          { "type": "text", "value": "\n" },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Improved Sentiment Analysis for multi-lingual code-mixed sentences using SentiWordNets.",
+                "position": {
+                  "start": { "line": 4, "column": 3, "offset": 135 },
+                  "end": { "line": 4, "column": 90, "offset": 222 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 4, "column": 1, "offset": 133 },
+              "end": { "line": 4, "column": 90, "offset": 222 }
+            }
+          },
+          { "type": "text", "value": "\n" },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Worked on implementing NLP Tools like Parts Of Speech (POS) Tagger and Named Entity\nRecognizer(NER) for code-mixed Indian languages.",
+                "position": {
+                  "start": { "line": 5, "column": 3, "offset": 225 },
+                  "end": { "line": 6, "column": 51, "offset": 359 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 5, "column": 1, "offset": 223 },
+              "end": { "line": 6, "column": 51, "offset": 359 }
+            }
+          },
+          { "type": "text", "value": "\n" }
+        ],
+        "position": {
+          "start": { "line": 2, "column": 1, "offset": 1 },
+          "end": { "line": 6, "column": 51, "offset": 359 }
+        }
+      }
+    ],
+    "position": {
+      "start": { "line": 1, "column": 1, "offset": 0 },
+      "end": { "line": 7, "column": 1, "offset": 360 }
+    }
+  }
+}

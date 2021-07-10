@@ -1,0 +1,11 @@
+{
+  "expireTime": 9007200880679560000,
+  "key": "7efa3718716b52a304e4999ff30f909b{\"background\":\"rgba(0,0,0,1)\",\"duotone\":false,\"grayscale\":false,\"rotate\":0,\"trim\":false,\"toFormat\":\"webp\",\"toFormatBase64\":\"\",\"cropFocus\":17,\"fit\":\"cover\",\"width\":20,\"height\":12}",
+  "val": {
+    "src": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAACwBACdASoUAAwAPtFUpEuoJKOhsAgBABoJYgCdLwDs/7szAq8oE28/xMGQTBUIAP0Crc6xzwm9aN98qCil6tku6S4EiULPOIEd524/T+XyU6c8aqrxBfrYayB7dUkaTuPWNE7LjGTiv4JYxdoiLCuMgOsxZt0TCygNYGR3Qhoj40+xZ1O/tJcG6La//aS4AAAAAA==",
+    "width": 20,
+    "height": 12,
+    "aspectRatio": 1.6666666666666667,
+    "originalName": "bot.png"
+  }
+}

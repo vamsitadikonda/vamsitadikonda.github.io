@@ -1,0 +1,119 @@
+{
+  "expireTime": 9007200880679560000,
+  "key": "transformer-remark-markdown-ast-7950f622b4bc1279ce9ba4d4091b7597-gatsby-remark-external-linksgatsby-remark-imagesgatsby-remark-code-titlesgatsby-remark-prismjs-",
+  "val": {
+    "type": "root",
+    "children": [
+      {
+        "type": "list",
+        "ordered": false,
+        "start": null,
+        "spread": false,
+        "children": [
+          {
+            "type": "listItem",
+            "spread": false,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Worked as a Summer Intern on IBM's Mobile Device Management product MaaS360. I was part of the automation team.",
+                    "position": {
+                      "start": { "line": 2, "column": 3, "offset": 3 },
+                      "end": { "line": 2, "column": 114, "offset": 114 },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 2, "column": 3, "offset": 3 },
+                  "end": { "line": 2, "column": 114, "offset": 114 },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 2, "column": 1, "offset": 1 },
+              "end": { "line": 2, "column": 114, "offset": 114 },
+              "indent": []
+            }
+          },
+          {
+            "type": "listItem",
+            "spread": false,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Desktop Management Automation - Designed a payload attribute validator using Java.",
+                    "position": {
+                      "start": { "line": 3, "column": 3, "offset": 117 },
+                      "end": { "line": 3, "column": 85, "offset": 199 },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 3, "column": 3, "offset": 117 },
+                  "end": { "line": 3, "column": 85, "offset": 199 },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 3, "column": 1, "offset": 115 },
+              "end": { "line": 3, "column": 85, "offset": 199 },
+              "indent": []
+            }
+          },
+          {
+            "type": "listItem",
+            "spread": false,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Automation Scripts for iOS Devices - Written Test process (both client and server) end to end in Java and Eggplant.",
+                    "position": {
+                      "start": { "line": 4, "column": 3, "offset": 202 },
+                      "end": { "line": 4, "column": 118, "offset": 317 },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 4, "column": 3, "offset": 202 },
+                  "end": { "line": 4, "column": 118, "offset": 317 },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 4, "column": 1, "offset": 200 },
+              "end": { "line": 4, "column": 118, "offset": 317 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 2, "column": 1, "offset": 1 },
+          "end": { "line": 4, "column": 118, "offset": 317 },
+          "indent": [1, 1]
+        }
+      }
+    ],
+    "position": {
+      "start": { "line": 1, "column": 1, "offset": 0 },
+      "end": { "line": 5, "column": 1, "offset": 318 }
+    }
+  }
+}

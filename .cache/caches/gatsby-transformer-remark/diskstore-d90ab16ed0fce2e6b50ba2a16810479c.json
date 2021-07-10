@@ -1,0 +1,5 @@
+{
+  "expireTime": 9007200880679560000,
+  "key": "transformer-remark-markdown-html-3a2c7acf8da3b317e93b98f9516cd16e-gatsby-remark-external-linksgatsby-remark-imagesgatsby-remark-code-titlesgatsby-remark-prismjs-",
+  "val": "<ul>\n<li>Stakeholder of Python based real-time and EOD feeders to handle critical financial and reference data from various sources. The feeders process around 16 billion records of trade data everyday and store them into KDB.</li>\n<li>Worked on optimizing data pipelines to KDB using Apache Kafka to real time forex and rates dashboards.</li>\n<li>Designed a comprehensive framework for building financial chat-bots and real time trade Notifiers. The chatbot is currently used by around 45 chatrooms used by various sales and trading global teams across forex, rates and commodities.</li>\n<li>Conceptualized and implemented a new report system with REST APIs for Transaction Cost Analysis (TCA) using Tableau, Flask/NGINX.</li>\n<li>Currently working on migrating the existing data warehouse to AWS using Terraform.</li>\n</ul>"
+}

@@ -1,0 +1,181 @@
+{
+  "expireTime": 9007200880679560000,
+  "key": "transformer-remark-markdown-ast-3a2c7acf8da3b317e93b98f9516cd16e-gatsby-remark-external-linksgatsby-remark-imagesgatsby-remark-code-titlesgatsby-remark-prismjs-",
+  "val": {
+    "type": "root",
+    "children": [
+      {
+        "type": "list",
+        "ordered": false,
+        "start": null,
+        "spread": false,
+        "children": [
+          {
+            "type": "listItem",
+            "spread": false,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Stakeholder of Python based real-time and EOD feeders to handle critical financial and reference data from various sources. The feeders process around 16 billion records of trade data everyday and store them into KDB.",
+                    "position": {
+                      "start": { "line": 2, "column": 3, "offset": 3 },
+                      "end": { "line": 2, "column": 220, "offset": 220 },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 2, "column": 3, "offset": 3 },
+                  "end": { "line": 2, "column": 220, "offset": 220 },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 2, "column": 1, "offset": 1 },
+              "end": { "line": 2, "column": 220, "offset": 220 },
+              "indent": []
+            }
+          },
+          {
+            "type": "listItem",
+            "spread": false,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Worked on optimizing data pipelines to KDB using Apache Kafka to real time forex and rates dashboards.",
+                    "position": {
+                      "start": { "line": 3, "column": 3, "offset": 223 },
+                      "end": { "line": 3, "column": 105, "offset": 325 },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 3, "column": 3, "offset": 223 },
+                  "end": { "line": 3, "column": 105, "offset": 325 },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 3, "column": 1, "offset": 221 },
+              "end": { "line": 3, "column": 105, "offset": 325 },
+              "indent": []
+            }
+          },
+          {
+            "type": "listItem",
+            "spread": false,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Designed a comprehensive framework for building financial chat-bots and real time trade Notifiers. The chatbot is currently used by around 45 chatrooms used by various sales and trading global teams across forex, rates and commodities.",
+                    "position": {
+                      "start": { "line": 4, "column": 3, "offset": 328 },
+                      "end": { "line": 4, "column": 238, "offset": 563 },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 4, "column": 3, "offset": 328 },
+                  "end": { "line": 4, "column": 238, "offset": 563 },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 4, "column": 1, "offset": 326 },
+              "end": { "line": 4, "column": 238, "offset": 563 },
+              "indent": []
+            }
+          },
+          {
+            "type": "listItem",
+            "spread": false,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Conceptualized and implemented a new report system with REST APIs for Transaction Cost Analysis (TCA) using Tableau, Flask/NGINX.",
+                    "position": {
+                      "start": { "line": 5, "column": 3, "offset": 566 },
+                      "end": { "line": 5, "column": 132, "offset": 695 },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 5, "column": 3, "offset": 566 },
+                  "end": { "line": 5, "column": 132, "offset": 695 },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 5, "column": 1, "offset": 564 },
+              "end": { "line": 5, "column": 132, "offset": 695 },
+              "indent": []
+            }
+          },
+          {
+            "type": "listItem",
+            "spread": false,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Currently working on migrating the existing data warehouse to AWS using Terraform.",
+                    "position": {
+                      "start": { "line": 6, "column": 3, "offset": 698 },
+                      "end": { "line": 6, "column": 85, "offset": 780 },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 6, "column": 3, "offset": 698 },
+                  "end": { "line": 6, "column": 85, "offset": 780 },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 6, "column": 1, "offset": 696 },
+              "end": { "line": 6, "column": 85, "offset": 780 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 2, "column": 1, "offset": 1 },
+          "end": { "line": 6, "column": 85, "offset": 780 },
+          "indent": [1, 1, 1, 1]
+        }
+      }
+    ],
+    "position": {
+      "start": { "line": 1, "column": 1, "offset": 0 },
+      "end": { "line": 7, "column": 1, "offset": 781 }
+    }
+  }
+}
