@@ -3,17 +3,18 @@ title: 'About Me'
 avatar: 'vamsi.jpg'
 skills:
   - Python
-  - Spring MVC & Maven
+  - Kafka & KDB
   - Jenkins (CI/CD)
-  - Kafka & Couchbase
-  - JUnit & TestNG
-  - IntelliJ Idea
+  - Tableau
+  - NGINX
+  - REST APIs (Kafka, django)
 ---
 
-Hello! Interestingly, I have been a student of Bio-Maths in my high school and got introduced to programming in my freshman year at [BITS Pilani](https://www.bits-pilani.ac.in/). Since then, I started developing Web and ML projects, and completed my Bachelors in Computer Science (2013-2017).
 
-Today, I'm currently working as a scrum developer responsible for several microservices code development and testing in Amdocs Technology Billing and RTB project.
+Hello! I'm Vamsi, a computer science enthusiast majorly interested in Data Engineering and Natural Language Processing. I have a Bachelors degree in Computer Science from [BITS Pilani](https://www.bits-pilani.ac.in/) (2013-2017). 
 
-I have also been awarded as Winner in Design Thinking Hackathon and Runners-Up in [Project ICE Fair](https://drive.google.com/file/d/1laynNsd9hIqxL-imT8dkAWqq7ZO4hj1a/view?usp=sharing) by Amdocs.
+During my time at BITS, I have worked on a couple of NLP related projects like Question Answering Systems, Parts of Speech Tagger and Named Entity Recognizer.
 
-Here is a list of the technologies that I work with in Amdocs!
+From the past 4 years, I have been working as a Software Engineer at JPMorgan Chase where I have been working on bulding large data pipelines, chatbots and other exciting products. 
+
+Here is a list of the technologies that I have been working recently

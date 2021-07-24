@@ -21,8 +21,8 @@ module.exports = {
       url: 'https://www.linkedin.com/in/vamsitadikonda/',
     },
     {
-      name: 'Codepen',
-      url: 'https://codepen.io/chandrikadeb7',
+      name: 'Scholar',
+      url: 'https://scholar.google.com/citations?user=Wo5tie4AAAAJ&hl=en',
     },
     {
       name: 'Instagram',
