@@ -1,5 +1,0 @@
-{
-  "expireTime": 9007200880679560000,
-  "key": "transformer-remark-markdown-html-0379f54e45c0e4205d1f085b09ab0e74-gatsby-remark-external-linksgatsby-remark-imagesgatsby-remark-code-titlesgatsby-remark-prismjs-",
-  "val": "<ul>\n<li>Enhanced the existing language Identification Systems for multi-lingual sentences thereby\nIdentifying places for code-switches.</li>\n<li>Improved Sentiment Analysis for multi-lingual code-mixed sentences using SentiWordNets.</li>\n<li>Worked on implementing NLP Tools like Parts Of Speech (POS) Tagger and Named Entity\nRecognizer(NER) for code-mixed Indian languages.</li>\n</ul>"
-}
