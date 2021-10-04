@@ -1,6 +1,6 @@
 ---
 date: '2015-07-31'
-title: 'Summer Intern'
+title: 'Software Engineer Intern'
 company: 'IBM'
 location: 'Bangalore, India'
 range: 'May - July 2015'

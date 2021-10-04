@@ -18,7 +18,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\" && git add -A .",
-    "deploy": "gatsby build && gh-pages -d public -b main"
+    "deploy": "gatsby build &&gh-pages -d public -b main"
   },
   "dependencies": {
     "animejs": "^3.1.0",
