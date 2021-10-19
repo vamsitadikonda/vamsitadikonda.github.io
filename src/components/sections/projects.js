@@ -6,7 +6,7 @@ import sr from '@utils/sr';
 import { srConfig } from '@config';
 import { FormattedIcon } from '@components/icons';
 import styled from 'styled-components';
-import { theme, mixins, media, Section, Button } from '@styles';
+import { theme, mixins, media, Section, Heading, Button } from '@styles';
 const { colors, fontSizes, fonts } = theme;
 
 const StyledContainer = styled(Section)`
@@ -126,8 +126,31 @@ const StyledTechList = styled.ul`
 const StyledMoreButton = styled(Button)`
   margin: 100px auto 0;
 `;
+const StyledHeading = styled(Heading)`
+  display: block;
+  color: ${colors.green};
+  font-size: ${fontSizes.md};
+  font-family: ${fonts.SFMono};
+  font-weight: normal;
+  margin-bottom: 20px;
+  justify-content: center;
+  ${media.desktop`font-size: ${fontSizes.sm};`};
+  &:before {
+    bottom: 0;
+    font-size: ${fontSizes.sm};
+    ${media.desktop`font-size: ${fontSizes.smish};`};
+  }
+  &:after {
+    display: none;
+  }
+  `;
 
 const Projects = ({ data }) => {
+  const { frontmatter, html } = data[0].node;
+  const { title, skills, avatar } = frontmatter;
+  const revealContainer = useRef(null);
+  useEffect(() => sr.reveal(revealContainer.current, srConfig()), []);
+
   const [showMore, setShowMore] = useState(false);
   const revealTitle = useRef(null);
   const revealArchiveLink = useRef(null);
@@ -145,8 +168,8 @@ const Projects = ({ data }) => {
   const projectsToShow = showMore ? projects : firstSix;
 
   return (
-    <StyledContainer id="projects">
-      <StyledTitle ref={revealTitle}>Projects</StyledTitle>
+    <StyledContainer id="projects" ref={revealContainer}>
+      <Heading >Projects</Heading>
 
       <StyledGrid>
         <TransitionGroup className="projects">
