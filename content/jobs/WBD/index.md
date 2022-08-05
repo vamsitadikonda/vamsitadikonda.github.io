@@ -1,5 +1,5 @@
 ---
-date: '2022-08-14'
+date: '2022-08-04'
 title: 'Software Engineering Intern, HBO Max'
 company: 'Warner Bros. Discovery'
 location: 'Remote, USA'
