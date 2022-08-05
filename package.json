@@ -18,7 +18,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\" && git add -A .",
-    "deploy": "gatsby build &&gh-pages -d public -b main && echo \"www.vamsitadikonda.com\" > build/CNAME"
+    "deploy": "gatsby build &&gh-pages -d public -b main && echo \"www.vamsitadikonda.com\" > CNAME"
   
   },
   "dependencies": {
