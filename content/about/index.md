@@ -1,6 +1,6 @@
 ---
 title: 'About Me'
-avatar: 'vamsi.jpg'
+avatar: 'vamsi.jpeg'
 skills:
   - Python & Java
   - REST APIs
@@ -11,13 +11,18 @@ skills:
   - Hadoop MapReduce
 ---
 
+Hello! I’m Vamsi, a dedicated computer science enthusiast with a profound interest in Data Engineering and Software Engineering. My journey in the tech world is characterized by continuous learning and thrilling professional experiences.
 
-Hello! I'm Vamsi, a computer science enthusiast majorly interested in Data Engineering and Software Engineering. I'm currently a Master of Computer Science student at [North Carolina State University](https://www.ncsu.edu/), Raleigh. I have a Bachelors degree in Computer Science from [BITS Pilani](https://www.bits-pilani.ac.in/) (2013-2017). 
+Currently, I serve as a Software Engineer II at [Warner Bros Discovery](https://wbd.com/), where I contribute to the Global Metadata Services for the Max and Discovery+ OTT platform. My role is pivotal in ensuring a seamless streaming experience for millions of users. Prior to this, I interned with the Partner Commerce team for HBO Max during the summer of 2022. During my internship, I revamped their App Subscriptions Database to  accommodate dynamic pricing and efficient querying, and developed a command-line tool (CLI) to manage mobile subscriptions.
 
-At [JPMorgan Chase](https://www.jpmorganchase.com/), I had joined as a Software Engineer and later in 2021, I got promoted to Senior Software Engineer. I Inititially started  bulding large data pipelines and later got to develop chatbots and other exciting products. I had designed and maintained a few products which serve JPMC middle office teams and a few external clients. While developing large scale software applications, I got to learn all the best practices in Software design and implementation including requirement gathering, documentation, infrastructure setup, coding and testing (both unit & integration). 
+Before joining Warner Bros. Discovery, I embarked on my professional journey at [JPMorgan Chase](https://www.jpmorganchase.com/). I began as a Software Engineer in 2017 and was promoted to Senior Software Engineer in 2021. My responsibilities included building large data pipelines, developing informational chatbots, and designing products for JPMC middle office teams and external clients. This role equipped me with best practices in software design and implementation, encompassing requirement gathering, documentation, infrastructure setup, coding, and testing.
 
-In my master's program, I have studied Database Design and Development, Algorithms for Data Driven Business Intelligence, and Parallel Systems, all of which are closely related to my interests in Data Engineering, Machine Learning, and Software Development. I intend to finish the Data Science track offered by NC State.
+Academically, I hold a Master’s degree in Computer Science with a minor in Data Science from [North Carolina State University](https://www.ncsu.edu/), Raleigh (2021-2022). During my master’s program, I delved into Database Design and Development, Algorithms for Data-Driven Business Intelligence, and Parallel Systems, aligning closely with my interests in Data Engineering, Machine Learning, and Software Development. Prior to this, I earned my Bachelor’s degree in Computer Science from [BITS Pilani](https://www.bits-pilani.ac.in/) (2013-2017).
 
-For the summer of 2022, I have the pleasure of interning at [Warner Bros. Discovery](https://wbd.com/). I worked with the Partner Commerce team for HBO Max as a Software Engineering Intern. During my time I had the chance to redesign their App Subscriptions Database to better handle dynamic pricing and efficient querying. I have also extended my project by developing an command line tool (CLI) that can be used to add / update mobile subscriptions.   
+
+Outside of my professional work, I have a passion for exploring the outdoors and staying active. I enjoy going on hikes, following Formula 1 racing, and traveling around the world to experience different cultures and landscapes. These hobbies not only keep me balanced but also inspire creativity in my professional endeavors.
 
 Here is a list of the technologies that I had worked recently
+
+
+
