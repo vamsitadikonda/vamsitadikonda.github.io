@@ -4,7 +4,7 @@ title: 'Software Engineering Intern, HBO Max'
 company: 'Warner Bros. Discovery'
 location: 'Remote, USA'
 range: 'June 2022 - August 2022'
-url: 'https://www.hbomax.com/'
+url: 'https://play.hbomax.com/sunset'
 ---
 
 - Redesigned the IAP Subscription Plan Service(SKU) model. Updated the table schema in DynamoDB. Developed the REST APIs to support multiple countries and dynamic pricing of currencies.

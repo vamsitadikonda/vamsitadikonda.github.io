@@ -4,7 +4,9 @@ title: 'Spotify Song Skip Prediction'
 github: ''
 external: 
 tech:
-  - Python, scikit-learn, pandas
+  - Python 
+  - scikit-learn
+  - pandas
 company: ''
 showInProjects: true
 ---

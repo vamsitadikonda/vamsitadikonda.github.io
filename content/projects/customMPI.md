@@ -4,7 +4,9 @@ title: 'Custom MPI'
 github: 'https://github.com/vamsitadikonda/customMPI'
 external: ''
 tech:
-  - C, OpenMPI, Socket Programming
+  - C
+  - OpenMPI
+  - Socket Programming
 company: ''
 showInProjects: true
 ---

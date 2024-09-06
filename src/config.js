@@ -1,36 +1,26 @@
 module.exports = {
-  siteTitle: 'Vamsi Tadikonda | Software Engineer',
-  siteDescription:
-    'Vamsi Tadikonda is a Software Engineer at JPMorgan Chase, who loves learning new things and helping tech beginners.',
-  siteKeywords:
-    'Vamsi Tadikonda, Vamsi, Tadikonda, vamsitadikonda, software engineer, bits, pilani',
-  siteUrl: 'https://vamsitadikonda.github.io/',
-  siteLanguage: 'en_US',
-  name: 'Vamsi Tadikonda',
-  location: 'Bengaluru, India',
   email: 'vamsitadikonda99@gmail.com',
-  github: 'https://github.com/vamsitadikonda',
-  twitterHandle: '@vamsitadikonda',
+
   socialMedia: [
     {
       name: 'GitHub',
       url: 'https://github.com/vamsitadikonda',
     },
     {
-      name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/vamsitadikonda/',
-    },
-    {
-      name: 'Scholar',
-      url: 'https://scholar.google.com/citations?user=Wo5tie4AAAAJ&hl=en',
-    },
-    {
       name: 'Instagram',
-      url: 'https://www.instagram.com/vamsitadikonda/',
+      url: 'https://www.instagram.com/vamsitadikonda',
     },
     {
       name: 'Twitter',
       url: 'https://twitter.com/vamsitadikonda',
+    },
+    {
+      name: 'Linkedin',
+      url: 'https://www.linkedin.com/in/vamsitadikonda',
+    },
+    {
+      name: 'Scholar',
+      url: 'https://scholar.google.com/citations?user=Wo5tie4AAAAJ&hl=en',
     },
   ],
 
@@ -53,15 +43,13 @@ module.exports = {
     },
   ],
 
-  navHeight: 100,
-
   colors: {
     green: '#64ffda',
     navy: '#0a192f',
     darkNavy: '#020c1b',
   },
 
-  srConfig: (delay = 200) => ({
+  srConfig: (delay = 200, viewFactor = 0.25) => ({
     origin: 'bottom',
     distance: '20px',
     duration: 500,
@@ -73,7 +61,7 @@ module.exports = {
     mobile: true,
     reset: false,
     useDelay: 'always',
-    viewFactor: 0.25,
+    viewFactor,
     viewOffset: { top: 0, right: 0, bottom: 0, left: 0 },
   }),
 };

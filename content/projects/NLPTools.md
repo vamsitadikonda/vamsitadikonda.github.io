@@ -4,7 +4,9 @@ title: 'NLP Tools for Code-Mixed texts'
 github: 'https://vamsitadikonda.github.io/thesis.pdf'
 external: ''
 tech:
-  - Python, Deep Learning, Natural Language Processing
+  - Python
+  - Deep Learning
+  - Natural Language Processing
 company: ''
 showInProjects: true
 ---

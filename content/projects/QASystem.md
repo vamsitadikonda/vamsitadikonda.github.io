@@ -4,7 +4,9 @@ title: 'Automated Question Answering System'
 github: 'https://github.com/vamsitadikonda/Automated-Question-Answering-System'
 external: ''
 tech:
-  - Python, NLTK, fuzzywuzzy Library
+  - Python
+  - NLTK
+  - fuzzywuzzy 
 company: ''
 showInProjects: true
 ---

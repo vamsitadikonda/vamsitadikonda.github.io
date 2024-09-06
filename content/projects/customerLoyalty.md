@@ -4,7 +4,9 @@ title: 'Customer Loyalty Marketplace Application'
 github: 'https://github.com/vamsitadikonda/brand_loyalty_program'
 external: ''
 tech:
-  - Java, SQL, Oracle DB
+  - Java 
+  - SQL 
+  - Oracle DB
 company: ''
 showInProjects: true
 ---

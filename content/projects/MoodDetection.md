@@ -4,7 +4,9 @@ title: 'Mood Detection System'
 github: 'https://github.com/vamsitadikonda/hog_mood_detection'
 external: ''
 tech:
-  - Python, openCV, scikit-learn Library
+  - Python
+  - openCV
+  - scikit-learn
 company: ''
 showInProjects: true
 ---

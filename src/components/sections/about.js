@@ -1,145 +1,200 @@
 import React, { useEffect, useRef } from 'react';
-import PropTypes from 'prop-types';
-import Img from 'gatsby-image';
-import sr from '@utils/sr';
-import { srConfig, github } from '@config';
+import { StaticImage } from 'gatsby-plugin-image';
 import styled from 'styled-components';
-import { theme, mixins, media, Section, Heading } from '@styles';
-const { colors, fontSizes, fonts } = theme;
+import { srConfig } from '@config';
+import sr from '@utils/sr';
+import { usePrefersReducedMotion } from '@hooks';
 
-const StyledContainer = styled(Section)`
-  position: relative;
-`;
-const StyledFlexContainer = styled.div`
-  ${mixins.flexBetween};
-  align-items: flex-start;
-  ${media.tablet`display: block;`};
-`;
-const StyledContent = styled.div`
-  width: 60%;
-  max-width: 480px;
-  ${media.tablet`width: 100%;`};
-  a {
-    ${mixins.inlineLink};
+const StyledAboutSection = styled.section`
+  max-width: 900px;
+
+  .inner {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 50px;
+
+    @media (max-width: 768px) {
+      display: block;
+    }
   }
 `;
-const SkillsContainer = styled.ul`
-  display: grid;
-  grid-template-columns: repeat(2, minmax(140px, 200px));
-  overflow: hidden;
-  padding: 0;
-  margin: 20px 0 0 0;
-  list-style: none;
-`;
-const Skill = styled.li`
-  position: relative;
-  margin-bottom: 10px;
-  padding-left: 20px;
-  font-family: ${fonts.SFMono};
-  font-size: ${fontSizes.smish};
-  color: ${colors.green};
-  &:before {
-    content: '▹';
-    position: absolute;
-    left: 0;
-    color: ${colors.green};
-    font-size: ${fontSizes.sm};
-    line-height: 12px;
+const StyledText = styled.div`
+  ul.skills-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    grid-gap: 0 10px;
+    padding: 0;
+    margin: 20px 0 0 0;
+    overflow: hidden;
+    list-style: none;
+
+    li {
+      position: relative;
+      margin-bottom: 10px;
+      padding-left: 20px;
+      font-family: var(--font-mono);
+      font-size: var(--fz-xs);
+
+      &:before {
+        content: '▹';
+        position: absolute;
+        left: 0;
+        color: var(--green);
+        font-size: var(--fz-sm);
+        line-height: 12px;
+      }
+    }
   }
 `;
 const StyledPic = styled.div`
   position: relative;
-  width: 40%;
   max-width: 300px;
-  margin-left: 60px;
-  ${media.tablet`margin: 60px auto 0;`};
-  ${media.phablet`width: 70%;`};
-  a {
+
+  @media (max-width: 768px) {
+    margin: 50px auto 0;
+    width: 70%;
+  }
+
+  .wrapper {
+    ${({ theme }) => theme.mixins.boxShadow};
+    display: block;
+    position: relative;
+    width: 100%;
+    border-radius: var(--border-radius);
+    background-color: var(--green);
+
+    &:hover,
     &:focus {
       outline: 0;
+      transform: translate(-4px, -4px);
+
+      &:after {
+        transform: translate(8px, 8px);
+      }
+
+      .img {
+        filter: none;
+        mix-blend-mode: normal;
+      }
     }
-  }
-`;
-const StyledAvatar = styled(Img)`
-  position: relative;
-  mix-blend-mode: multiply;
-  filter: grayscale(100%) contrast(1);
-  border-radius: ${theme.borderRadius};
-  transition: ${theme.transition};
-`;
-const StyledAvatarLink = styled.a`
-  ${mixins.boxShadow};
-  width: 100%;
-  position: relative;
-  border-radius: ${theme.borderRadius};
-  background-color: ${colors.lightestSlate};
-  margin-left: -20px;
-  &:hover,
-  &:focus {
-    background: transparent;
+
+    .img {
+      position: relative;
+      border-radius: var(--border-radius);
+      mix-blend-mode: multiply;
+      filter: grayscale(100%) contrast(1);
+      transition: var(--transition);
+    }
+
+    &:before,
     &:after {
-      top: 15px;
-      left: 15px;
+      content: '';
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: var(--border-radius);
+      transition: var(--transition);
     }
-    ${StyledAvatar} {
-      filter: none;
-      mix-blend-mode: normal;
+
+    &:before {
+      top: 0;
+      left: 0;
+      background-color: var(--navy);
+      mix-blend-mode: screen;
     }
-  }
-  &:before,
-  &:after {
-    content: '';
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: ${theme.borderRadius};
-    transition: ${theme.transition};
-  }
-  &:before {
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: ${colors.navy};
-    mix-blend-mode: screen;
-  }
-  &:after {
-    border: 2px solid ${colors.green};
-    top: 10px;
-    left: 10px;
-    z-index: -1;
+
+    &:after {
+      border: 2px solid var(--green);
+      top: 14px;
+      left: 14px;
+      z-index: -1;
+    }
   }
 `;
 
-const About = ({ data }) => {
-  const { frontmatter, html } = data[0].node;
-  const { title, skills, avatar } = frontmatter;
+const About = () => {
   const revealContainer = useRef(null);
-  useEffect(() => sr.reveal(revealContainer.current, srConfig()), []);
+  const prefersReducedMotion = usePrefersReducedMotion();
+
+  useEffect(() => {
+    if (prefersReducedMotion) {
+      return;
+    }
+
+    sr.reveal(revealContainer.current, srConfig());
+  }, []);
+
+  const skills = ['Golang','Java', 'REST APIs', 'Kafka', 'Kubernetes','Python','Tableau', 'TypeScript', 'DynamoDB','Hadoop MapReduce'];
 
   return (
-    <StyledContainer id="about" ref={revealContainer}>
-      <Heading>{title}</Heading>
-      <StyledFlexContainer>
-        <StyledContent>
-          <div dangerouslySetInnerHTML={{ __html: html }} />
-          <SkillsContainer>
-            {skills && skills.map((skill, i) => <Skill key={i}>{skill}</Skill>)}
-          </SkillsContainer>
-        </StyledContent>
-        <StyledPic>
-          <StyledAvatarLink href={github}>
-            <StyledAvatar fluid={avatar.childImageSharp.fluid} alt="Avatar" />
-          </StyledAvatarLink>
-        </StyledPic>
-      </StyledFlexContainer>
-    </StyledContainer>
-  );
-};
+    <StyledAboutSection id="about" ref={revealContainer}>
+      <h2 className="numbered-heading">About Me</h2>
 
-About.propTypes = {
-  data: PropTypes.array.isRequired,
+      <div className="inner">
+        <StyledText>
+          <div>
+            <p>
+              Hello! I’m Vamsi, a dedicated computer science enthusiast with a profound interest in 
+              Data Engineering and Software Engineering. My journey in the tech world is characterized 
+              by continuous learning and thrilling professional experiences.
+            </p>
+
+            <p>
+              Currently, I serve as a Software Engineer II at {' '}
+              <a href="https://wbd.com/">Warner Bros Discovery</a> where I contribute to the Global Metadata Services for the {' '}
+              <a href="https://max.com/">Max</a> and {' '}
+              <a href="https://www.discoveryplus.com/">Discovery+</a> OTT platform. 
+              My role is pivotal in ensuring a seamless streaming experience for millions of users. 
+              Prior to this, I interned with the Partner Commerce team for HBO Max during the summer of 2022. 
+              During my internship, I revamped their App Subscriptions Database to accommodate dynamic pricing 
+              and efficient querying, and developed a command-line tool (CLI) to manage mobile subscriptions.
+            </p>
+
+            <p>
+              Before joining Warner Bros. Discovery, I embarked on my professional journey at {' '}
+              <a href="https://www.jpmorganchase.com/">JPMorgan Chase</a>. I began as a Software Engineer in 2017 and was promoted to Senior Software Engineer in 2021. 
+              My responsibilities included building large data pipelines, developing informational chatbots, 
+              and designing products for JPMC middle office teams and external clients. This role equipped me with 
+              best practices in software design and implementation, encompassing requirement gathering, documentation, 
+              infrastructure setup, coding, and testing.
+            </p>
+
+            <p>
+              Academically, I hold a Master’s degree in Computer Science with a minor in Data Science from {' '}
+              <a href="https://www.ncsu.edu/">North Carolina State University</a>, Raleigh (2021-2022). During my master’s program, I delved into Database Design and Development, Algorithms for Data-Driven Business Intelligence, and Parallel Systems, 
+              aligning closely with my interests in Data Engineering, Machine Learning, and Software Development. Prior to this, I earned my Bachelor’s degree in Computer Science from {' '}
+              <a href="https://www.bits-pilani.ac.in/">BITS Pilani</a> (2013-2017).            
+            </p>
+
+            <p>
+              Outside of my professional work, I have a passion for exploring the outdoors and staying active. I enjoy going on hikes, following Formula 1 racing, and traveling around the world to experience different cultures and landscapes. These hobbies not only keep me balanced but also inspire creativity in my professional endeavors.
+            </p>
+
+            <p>Here are a few technologies I’ve been working with recently:</p>
+          </div>
+
+          <ul className="skills-list">
+            {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
+          </ul>
+        </StyledText>
+
+        <StyledPic>
+          <div className="wrapper">
+            <StaticImage
+              className="img"
+              src="../../images/me.jpg"
+              height={1000}
+              width={500}
+              quality={95}
+              formats={['AUTO', 'WEBP', 'AVIF']}
+              alt="Headshot"
+            />
+          </div>
+        </StyledPic>
+      </div>
+    </StyledAboutSection>
+  );
 };
 
 export default About;

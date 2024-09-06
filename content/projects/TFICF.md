@@ -4,7 +4,9 @@ title: 'TF-ICF'
 github: 'https://github.com/vamsitadikonda/tf-icf'
 external: ''
 tech:
-  - Java, Hadoop, MapReduce
+  - Java
+  - Hadoop
+  - MapReduce
 company: ''
 showInProjects: true
 ---
