@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://vamsitadikonda.github.io/sitemap/sitemap-index.xml
-Host: https://vamsitadikonda.github.io
+Sitemap: https://vamsitadikonda.com/sitemap-index.xml
+Host: https://vamsitadikonda.com
