@@ -105,12 +105,16 @@ const Footer = () => {
       </StyledSocialLinks>
 
       <StyledCredit tabindex="-1">
-        <a href="https://github.com/bchiang7/v4">
-          <div>
+      <div>
+        <p href="https://github.com/bchiang7/v4">
             Designed &amp; Built by Brittany Chiang<br></br>
-            Revised by Vamsi Tadikonda
-          </div>
-
+        </p>
+        <a href="https://www.vamsitadikonda.com/vamsi-tadikonda.jpg">
+            <br></br> Revised by</a><a href="https://www.vamsitadikonda.com/vamsi-tadikonda-1.jpg">Vamsi Tadikonda</a>        
+      </div>
+      </StyledCredit>
+      <StyledCredit tabindex="-1">
+        <a href="https://github.com/bchiang7/v4">
           {githubInfo.stars && githubInfo.forks && (
             <div className="github-stats">
               <span>
