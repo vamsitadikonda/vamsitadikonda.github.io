@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Golang','Java', 'REST APIs', 'Kafka', 'Kubernetes','Python','Tableau', 'TypeScript', 'DynamoDB','Hadoop MapReduce'];
+  const skills = ['Golang', 'Python', 'Java', 'REST APIs', 'Kafka', 'Kubernetes', 'TypeScript', 'DynamoDB', 'LLMs', 'Distributed Systems'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,35 +135,43 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! I’m Vamsi, a dedicated computer science enthusiast with a profound interest in 
-              Data Engineering and Software Engineering. My journey in the tech world is characterized 
-              by continuous learning and thrilling professional experiences.
+              Hello! I'm Vamsi, a software engineer with over 8 years of experience designing scalable
+              distributed systems and microservices architectures. My work spans media streaming,
+              financial technology, and most recently Generative AI.
             </p>
 
             <p>
-              Currently, I serve as a Software Engineer II at {' '}
-              <a href="https://wbd.com/">Warner Bros Discovery</a> where I contribute to the Global Metadata Services for the {' '}
+              Currently, I&apos;m a Principal Member of Technical Staff at {' '}
+              <a href="https://www.oracle.com/artificial-intelligence/">Oracle</a>, where I&apos;m part of the OCI
+              GenAI Tools team. I build LLM-powered tools for Oracle Cloud Infrastructure, including a Code
+              Interpreter for natural language-driven code execution and{' '}
+              <a href="https://blogs.oracle.com/cloud-infrastructure/enterprise-nl2sql-with-semantic-enrichments">OCI NL2SQL</a>,
+              an enterprise-ready system that uses semantic enrichment to resolve ambiguous business queries
+              into accurate SQL across large data warehouses.
+            </p>
+
+            <p>
+              Prior to Oracle, I spent over three years at {' '}
+              <a href="https://wbd.com/">Warner Bros. Discovery</a> as a Software Engineer II, contributing to
+              the Global Metadata Services for the {' '}
               <a href="https://max.com/">Max</a> and {' '}
-              <a href="https://www.discoveryplus.com/">Discovery+</a> OTT platform. 
-              My role is pivotal in ensuring a seamless streaming experience for millions of users. 
-              Prior to this, I interned with the Partner Commerce team for HBO Max during the summer of 2022. 
-              During my internship, I revamped their App Subscriptions Database to accommodate dynamic pricing 
-              and efficient querying, and developed a command-line tool (CLI) to manage mobile subscriptions.
+              <a href="https://www.discoveryplus.com/">Discovery+</a> OTT platforms. I built a scalable Ad
+              Partner service processing 2M+ daily requests across 70+ countries, engineered a media transcoding
+              workflow that projected $2M in annual CDN savings, and implemented the Contextual Ad Segments
+              feature supporting a $19.4M revenue initiative.
             </p>
 
             <p>
-              Before joining Warner Bros. Discovery, I embarked on my professional journey at {' '}
-              <a href="https://www.jpmorganchase.com/">JPMorgan Chase</a>. I began as a Software Engineer in 2017 and was promoted to Senior Software Engineer in 2021. 
-              My responsibilities included building large data pipelines, developing informational chatbots, 
-              and designing products for JPMC middle office teams and external clients. This role equipped me with 
-              best practices in software design and implementation, encompassing requirement gathering, documentation, 
-              infrastructure setup, coding, and testing.
+              Before that, I spent four years at {' '}
+              <a href="https://www.jpmorganchase.com/">JPMorgan Chase</a> building large-scale data pipelines
+              ingesting 16 billion daily trade records, financial chatbots serving 60 global sales and trading
+              rooms, and RESTful reporting services for Transaction Cost Analysis.
             </p>
 
             <p>
-              Academically, I hold a Master’s degree in Computer Science with a minor in Data Science from {' '}
-              <a href="https://www.ncsu.edu/">North Carolina State University</a>, Raleigh (2021-2022). During my master’s program, I delved into Database Design and Development, Algorithms for Data-Driven Business Intelligence, and Parallel Systems, 
-              aligning closely with my interests in Data Engineering, Machine Learning, and Software Development. Prior to this, I earned my Bachelor’s degree in Computer Science from {' '}
+              Academically, I hold a Master's degree in Computer Science with a minor in Data Science from {' '}
+              <a href="https://www.ncsu.edu/">North Carolina State University</a>, Raleigh (2021-2022). During my master's program, I delved into Database Design and Development, Algorithms for Data-Driven Business Intelligence, and Parallel Systems, 
+              aligning closely with my interests in Data Engineering, Machine Learning, and Software Development. Prior to this, I earned my Bachelor's degree in Computer Science from {' '}
               <a href="https://www.bits-pilani.ac.in/">BITS Pilani</a> (2013-2017).            
             </p>
 
@@ -171,7 +179,7 @@ const About = () => {
               Outside of my professional work, I have a passion for exploring the outdoors and staying active. I enjoy going on hikes, following Formula 1 racing, and traveling around the world to experience different cultures and landscapes. These hobbies not only keep me balanced but also inspire creativity in my professional endeavors.
             </p>
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>Here are a few technologies I've been working with recently:</p>
           </div>
 
           <ul className="skills-list">

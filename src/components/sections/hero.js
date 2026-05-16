@@ -61,15 +61,18 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Vamsi Tadikonda.</h2>;
-  const three = <h3 className="big-heading">I love exploring new things!</h3>;
+  const three = <h3 className="big-heading">I build things that matter.</h3>;
   const four = (
     <>
       <p>
-        I'm a Software developer with a goal-driven creative mindset and passion for learning and 
-        innovating. I have 5+ years of experience in software development. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
-        <a href="https://wbd.com/" target="_blank" rel="noreferrer">
-          Warner Bros. Discovery
+        I&apos;m a software engineer with 8+ years of experience building scalable distributed systems.
+        Currently working as a Principal Member of Technical Staff at{' '}
+        <a href="https://www.oracle.com/artificial-intelligence/" target="_blank" rel="noreferrer">
+          Oracle OCI
+        </a>
+        , where I build LLM-powered GenAI tools including Code Interpreter and{' '}
+        <a href="https://blogs.oracle.com/cloud-infrastructure/enterprise-nl2sql-with-semantic-enrichments" target="_blank" rel="noreferrer">
+          NL2SQL
         </a>
         .
       </p>
